@@ -1,0 +1,13 @@
+.one {
+    background-color: black;
+    border: 5px solid rgb(167, 90, 90);
+    width: fit-content;
+   padding: 25px;
+   margin: 100px;
+}
+button {
+    padding: 5px;
+}
+.two {
+    padding-left: 10px;
+}

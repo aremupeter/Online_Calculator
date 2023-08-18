@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+
+    <section class="one">
+        <input type="text" id="out" style="width: 250px; height: 30px;" placeholder="0">
+        <div class="two">
+            <div style="padding: 10px;">
+            <button style="margin: 5px; background-color: rgb(84, 240, 84);">MC</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230);" onclick="document.getElementById('out').value+='7'">7</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='4'">4</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='1'">1</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='0'">0</button>
+        </div>
+        <div style="padding: 15px;">
+            <button style="margin: 5px; background-color: rgb(84, 240, 84);">MR</button>
+            <button style="margin: 5px; background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='8'">8</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='5'">5</button>
+            <button style="margin: 5px; background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='2'">2</button>
+            <button style="margin: 5px; background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='.'">.</button>
+        </div>
+        <div style="padding: 15px;">
+            <button style="margin: 5px;background-color: rgb(84, 240, 84);">M+</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='9'">9</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='6'">6</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)" onclick="document.getElementById('out').value+='3'">3</button>
+            <button style="margin: 5px;background-color: rgb(132, 132, 230)">+/-</button>
+        </div>
+        <div style="padding: 15px;">
+            <button style="margin: 5px; background-color: rgb(129, 160, 239);">M-</button>
+            <button style="margin: 5px; background-color: rgb(84, 240, 84);" onclick="document.getElementById('out').value+='/'">/</button>
+            <button style="margin: 5px; background-color: rgb(84, 240, 84);" onclick="document.getElementById('out').value+='*'">*</button>
+            <button style="margin: 5px;background-color: rgb(84, 240, 84);" onclick="document.getElementById('out').value+='-'">-</button>
+            <button style="margin: 5px;background-color: rgb(84, 240, 84);" onclick="document.getElementById('out').value+='+'">+</button>
+        </div>
+        <div style="padding: 15px;">
+            <button style="background-color: rgb(236, 23, 23);" onclick="document.getElementById('out').value='  '">CE</button>
+            <button style="background-color:  rgb(84, 240, 84);">SQT</button>
+            <button style="background-color:  rgb(84, 240, 84);" onclick="document.getElementById('out').value+='%'">%</button>
+            <button style="background-color:  rgb(84, 240, 84);">1/x</button>
+            <button style="background-color:  rgb(84, 240, 84);" onclick="document.getElementById('out').value=eval(document.getElementById('out').value)">=</button>
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>
